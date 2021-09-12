@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvTask"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:padding="2dp"
+        android:text="Hello"
+        android:layout_toLeftOf="@id/ivUpdate"
+        android:layout_marginLeft="13dp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/ivUpdate"
+        android:src="@drawable/ic_update_24"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@id/ivRemove"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ivRemove"
+        android:src="@drawable/ic_cancel_24"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
